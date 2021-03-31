@@ -39,6 +39,8 @@ cmake ..
 make -j8
 cd ..
 python setup.py install
+
+pip install PyOpenGL PyOpenGL_accelerate
 ```
 Tested under Ubuntu 16.04, Python 3.6+.
 
